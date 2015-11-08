@@ -1,0 +1,106 @@
+/*---GLOBAL---STYLES---*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url('../images/billie_holiday_@2X.png');
+}
+
+
+/*---Angular--UI--Bootstrap--Globals---*/
+
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+  cursor: pointer;
+}
+
+.row {}
+
+.parent {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  border: 1px dashed black;
+  width: 100%;
+  height: auto;
+}
+
+.search-btn {
+  display: inline-block;
+}
+
+
+/*---flexbox---styles---*/
+
+
+/*div.images {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+div.images .img-parent {
+  margin: 5px;
+  max-width: 25vw;
+  min-width: 25vw;
+  height: 100%;
+  border: 1px solid black;
+  opacity: .6;
+}
+
+div.img-parent:hover {
+  opacity: 1;
+}
+
+div.images .img-parent img {
+  height: 100%;
+  width: 100%;
+}
+
+
+media-queries
+
+@media screen and (max-width: 480px) {
+  div.images .img-parent {
+    min-width: 30vh;
+    max-width: 30vh;
+  }
+}
+
+@media screen and (min-width: 481px && max-width: 800px) {
+  div.images .img-parent {
+    min-width: 35vh;
+    max-width: 35vh;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  div.images .img-parent {
+    margin: 5px;
+    max-width: 25vw;
+    min-width: 25vw;
+    height: 100%;
+    border: 1px solid black;
+  }
+}*/

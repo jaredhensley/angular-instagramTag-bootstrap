@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html ng-app="myApp">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Angular Tag Search!</title>
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link type="text/css" rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body ng-controller="mainController">
+  <div class="container">
+    <nav class="nav navbar-default"></nav>
+    <h1>Bootstrap Test</h1>
+    <form>
+      <input class="form-control" type="text" ng-submit="getResults(searchTerm)" ng-model="searchTerm">
+      <button class="btn btn-default search-btn" ng-click="getResults(searchTerm)">click me</button>
+    </form>
+
+  </div>
+  <!--<div class="images">-->
+  <div class="row">
+    <div class="img-parent" ng-repeat="result in results">
+      <!--<img class="" ng-src={{result}} alt="">-->
+      <search-result></search-result>
+    </div>
+  </div>
+
+  <!--</div>-->
+
+  <!--script tags-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.3/ui-bootstrap-tpls.js"></script>
+  <script src="app.js"></script>
+  <script src="controller.js"></script>
+  <script src="service.js"></script>
+  <script src="directive.js"></script>
+
+</body>
+
+</html>
