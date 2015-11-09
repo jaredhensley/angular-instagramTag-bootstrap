@@ -95,7 +95,7 @@ form {
 p.caption {
   min-height: 70px;
   max-height: 70px;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 div.thumbnail {
@@ -107,6 +107,11 @@ div.thumbnail {
 }
 
 .btn1 {
+  background-color: #685474;
+  border-color: #685474;
+}
+
+.btn1:visited {
   background-color: #685474;
   border-color: #685474;
 }
