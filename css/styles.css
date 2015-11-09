@@ -1,4 +1,4 @@
-/*---GLOBAL---STYLES---*/
+/*---GLOBAL--STYLES---*/
 
 html {
   box-sizing: border-box;
@@ -26,6 +26,9 @@ body {
 
 .row {}
 
+
+/*---Directive---Template--Styles---*/
+
 .parent {
   margin: 0 auto;
   width: 100%;
@@ -40,6 +43,72 @@ body {
 
 .search-btn {
   display: inline-block;
+}
+
+
+/*---Navbar--Styles---*/
+
+.nav-bar {
+  position: relative;
+  background-color: #685474;
+}
+
+.nav-bar h1 {
+  margin-top: 0;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: white;
+}
+
+.top-right {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  color: white;
+}
+
+.top-right a {
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+}
+
+.top-right a:visited {
+  color: white;
+}
+
+
+/*---Input--Styles---*/
+
+form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-control {
+  margin: 0 auto 30px;
+  max-width: 300px;
+  display: inline-block;
+}
+
+p.caption {
+  min-height: 70px;
+  max-height: 70px;
+  overflow: hidden;
+}
+
+div.thumbnail {
+  background-color: #1f122c;
+}
+
+.thumbnail .caption {
+  color: white;
+}
+
+.btn1 {
+  background-color: #685474;
+  border-color: #685474;
 }
 
 

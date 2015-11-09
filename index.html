@@ -6,23 +6,30 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>Angular Tag Search!</title>
+  <title>Angular | Instagram Practice</title>
   <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link type="text/css" rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body ng-controller="mainController">
+
+  <nav class="nav-bar">
+    <h1>Instangular Tag Search</h1>
+  </nav>
+
+  <p class="top-right">
+    <a href="http://www.github.com/jaredhensley">Jared Hensley</a><i class="fa fa-coffee"></i>
+  </p>
+
   <div class="container">
-    <nav class="nav navbar-default"></nav>
-    <h1>Bootstrap Test</h1>
     <form>
-      <input class="form-control" type="text" ng-submit="getResults(searchTerm)" ng-model="searchTerm">
+      <input class="form-control" type="text" ng-submit="getResults(searchTerm)" ng-model="searchTerm" placeholder="lets find all the things...">
       <button class="btn btn-default search-btn" ng-click="getResults(searchTerm)">click me</button>
     </form>
-
   </div>
-  <!--<div class="images">-->
+
   <div class="row">
     <div class="img-parent" ng-repeat="result in results">
       <!--<img class="" ng-src={{result}} alt="">-->
@@ -30,7 +37,6 @@
     </div>
   </div>
 
-  <!--</div>-->
 
   <!--script tags-->
 
